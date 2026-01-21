@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 174);
+    color: black;
+}
+
+.button-container {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card-container {
+    border: 0.5px solid black;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+
+.card {
+    text-align: center;
+}
